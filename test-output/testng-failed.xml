@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.model.MercuryDatadrivenTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="captureScreenshot"/>
+          <include name="enterApplicationURL"/>
+          <include name="maximizeBrowser"/>
+          <include name="loginwithValidds" invocation-numbers="0 1 2"/>
+          <include name="getAllCookies"/>
+          <include name="dbConnectionClosed"/>
+          <include name="deleteAllCookies"/>
+        </methods>
+      </class> <!-- com.model.MercuryDatadrivenTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
