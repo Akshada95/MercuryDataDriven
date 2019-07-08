@@ -35,7 +35,7 @@ public class MercuryDatadrivenTest {
 	  driver.findElement(By.xpath("//input[@name='login']")).click();
 	  System.out.println("User has login into Mercury Tours successfully");
 	  driver.findElement(By.linkText("SIGN-OFF")).click(); 
-	  System.out.println("SIGN--OFFFF");
+	  System.out.println("SIGN--OFFFF LOGONONTO");
 	  
   }
   
